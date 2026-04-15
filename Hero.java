@@ -6,7 +6,9 @@ public class Hero extends Actor
     
     public void act()
     {
-        move(2);
+        if(Greenfoot.mouseClicked(null)) {
+            setLocation(100,100);
+        }
         
     }
 }
